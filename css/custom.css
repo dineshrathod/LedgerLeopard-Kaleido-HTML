@@ -1,0 +1,172 @@
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none
+}
+html{
+    width:100%;
+    min-height: 100%;
+    font-size:62.5%;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    text-size-adjust:100%
+}
+body{
+    margin:0;
+    padding:0;    
+    width:100%;
+    max-width:100%;
+    height:100%;
+    max-height:100%;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    -webkit-user-drag:none;
+    -ms-content-zooming:none;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    word-wrap:break-word;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    text-size-adjust:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;    
+    background:url(../images/bg.jpg) no-repeat center top;
+    background-size: cover;
+}
+a{
+    background-color:transparent;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top:1.6rem;
+    margin-bottom:1rem;
+    font-weight:500;
+    line-height:1.2
+}
+
+header{
+    background: #000;
+    text-align: center;
+}
+header .logo{
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+header .logo img{
+    width: 100%;
+}
+.contentpart{
+    width: 100%;
+    display: block;
+    padding: 20px 10px;
+}
+.contentpart .page-content{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 20px;
+    width: 100%;
+}
+.create_account .pg-heading{
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.create_account .pg-heading h1{
+    font-weight: 600;
+    margin-top: 0;
+}
+.create_account .pg-heading span{
+    display: block;
+    color: #222;
+    font-size: 12px;
+}
+.create_account .pg-heading a{
+    font-size: 12px;
+}
+.create_account .lang-wrap{
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.create_account .lang-wrap h5{
+    margin-top: 0;
+}
+.create_account .lang-wrap .nav{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.create_account .lang-wrap .nav li{
+    display:inline-block;
+    float: left;
+}
+.create_account .lang-wrap .nav li a{
+    font-size: 12px;
+    color: #222;
+    font-weight: 500;
+}
+.create_account .lang-wrap .nav li a.active{
+    background: #222;
+    color: #fff;
+}
+.create_account .lang-wrap .nav li a:hover{
+    background: #555;
+    color: #fff;
+}
+.form-wrap{
+
+}
+.form-wrap .captcha img{
+    max-width: 220px;
+}
+.form-control{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.btn{
+    font-size: 15px;
+    background: #222;
+    border: 0;
+    padding: 8px 15px;
+    box-shadow: none;
+}
+.btn:hover{
+    background: #000;
+}
+.btn-primary.active:focus:not(:disabled):not(.disabled), .btn-primary:active:focus:not(:disabled):not(.disabled), .show > .btn-primary.dropdown-toggle:focus{
+    background: #000;
+    border: 0;
+    box-shadow: none;
+}
+.btn-primary.focus, .btn-primary:focus{
+    box-shadow: none;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.create_account .btn{
+    width: 100%;
+}
+
+.link{
+    color: #222;
+}
+.link:hover{
+    color: #000;
+}
