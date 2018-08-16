@@ -228,7 +228,15 @@ margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
 }
-
+.pagenav .dropdown .dropdown-item{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.pagenav .dropdown .dropdown-item i{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
 
 .complete-charter{
     background: #fff none repeat scroll 0 0;
@@ -344,4 +352,154 @@ margin-bottom: 10px;
 }
 .navbar.pagenav > .container, .navbar.pagenav > .container-fluid{
     display: inline-block;
+}
+
+.enviroment-box{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.envimg {
+    text-align: center;
+}
+.envimg img{
+    max-width: 130px;
+}
+.memb-list table{
+    background: #fff;
+}
+.envir-data{
+    text-align: center;
+}
+.envir-data ul{
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+.envir-data ul li{
+    align-items: center;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+    margin: 0px 10px;
+}
+.envir-data ul li .envir-count{
+    display: inline-block;
+    font-size: 14px;
+}
+.envir-data ul li h5{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.envir-txt h3{
+    margin-top: 0;
+}
+
+.creat-environment{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding:0px;
+    width: 100%;
+    overflow: hidden;
+}
+.creat-environment .nav-tabs{
+    display: flex;
+}
+.creat-environment .nav-tabs .nav-item{
+    flex: 1 1 auto;
+}
+.creat-environment .nav-tabs .nav-item a{
+    border: 0;
+    font-size: 16px;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    padding: 15px ;
+    border-radius: 0;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+.creat-environment .nav-tabs .nav-item a.active{
+    background: #000;
+    color: #fff;
+}
+.creat-environment .nav-tabs .nav-item a.active:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 10px;
+    margin-left: -10px;
+    bottom: -2px;
+}
+.creat-environment .tab-content{
+    padding: 20px;
+}
+.creat-environment .tab-content .tabwrap{
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+}
+.creat-environment .imgdiv{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.creat-environment .imgdiv img{
+    width: 100%;
+    max-width: 300px;
+}
+.creat-environment .custom-control {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 3px;
+}
+.creat-environment .custom-control-label::before {
+    -moz-user-select: none;
+    background-color: #dee2e6;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+.creat-environment .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-5 -5 10 10\'%3E%3Ccircle r=\'4\' fill=\'%23fff\'/%3E%3C/svg%3E");
+}
+.creat-environment .custom-control-label::after {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 15px;
 }
