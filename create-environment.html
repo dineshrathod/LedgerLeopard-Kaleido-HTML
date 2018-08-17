@@ -26,7 +26,6 @@
     </nav>
     <section class="contentpart">
         <div class="container">
-
             <div class="creat-environment">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
@@ -35,7 +34,6 @@
                     <li class="nav-item">
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
                     </li>
-
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
@@ -67,7 +65,6 @@
                                                     </ul>
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="row">
                                                     <div class="col-6">
@@ -94,7 +91,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="row">
                                                     <div class="col-12">
@@ -103,9 +99,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-
-
                                         </form>
                                     </div>
 
@@ -121,79 +114,66 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="pg-heading">
-                                        <h1>Name New Environment</h1>
+                                        <h1>Deployment Settings</h1>
                                     </div>
                                     <div class="form-wrap">
                                         <form>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="pg-heading">
-                                                    <h2>Protocol Settings</h2>
-                                                    <p>Choose your provider and associated algoridhm</p>
-                                                    <ul>
-                                                        <li>Geth is the hardened go implementation of the ethereum node. Offers
-                                                            support for public transactions and clique PoA consensus.</li>
-                                                        <li>Quorum is a forked iteration of geth that offers additional support
-                                                            for private transactions, can be configured to run raft or IBFT
-                                                            consensus.
-                                                        </li>
-                                                    </ul>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">Inherit default region from Consortium</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">Automatically create Nodes for all members</label>
                                                 </div>
                                             </div>
-
-                                            <div class="form-group">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <h5>Provider</h5>
-                                                        <div class="custom-control custom-radio">
-                                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadioInline1">Geth</label>
-                                                        </div>
-                                                        <div class="custom-control custom-radio custom-control-inline">
-                                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadioInline2">Quorum</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h5>Consensus Algorithm</h5>
-                                                        <div class="custom-control custom-radio">
-                                                            <input type="radio" id="customRadioInline3" name="customRadioInline2" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadioInline3">IBFT</label>
-                                                        </div>
-                                                        <div class="custom-control custom-radio custom-control-inline">
-                                                            <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadioInline4">Raft</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="pg-heading">
+                                                <h1>Mainnet Relay</h1>
                                             </div>
+                                            <div class="form-group">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">Relay snapshot of block has to mainnet</label>
+                                                </div>
 
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Tether to</label>
+                                                <select class="custom-select">
+                                                    <option selected>Rinkeby Testnet</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Relay Frequency</label>
+                                                <select class="custom-select">
+                                                    <option selected>6 hours</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
                                             <div class="form-group">
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <a href="javascript:void(0)" class="btn btn-primary float-right">Finish</a>
+                                                        <a href="nodepage.html" class="btn btn-primary float-right">Finish</a>
                                                         <a href="javascript:void(0)" class="btn btn-secondary disabled float-right" style="margin-right: 5px;">Cancel</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </section>
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>

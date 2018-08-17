@@ -68,9 +68,8 @@ header .logo img{
     width: 100%;
 }
 .contentpart{
-    width: 100%;
-    display: block;
     padding: 20px 10px;
+    width: 100%;
 }
 .contentpart .page-content{
     background: #fff none repeat scroll 0 0;
@@ -502,4 +501,142 @@ margin-bottom: 10px;
     position: absolute;
     top: 2px;
     width: 15px;
+}
+
+.custom-select{
+    padding: 5px;
+    height: 35px;
+}
+
+
+.addnode{
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    padding: 50px;
+}
+.addnode .imgdiv{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.addnode .imgdiv img{
+    width: 100%;
+    max-width: 300px;
+}
+.addnode .custom-control {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 3px;
+}
+.addnode .custom-control-label::before {
+    -moz-user-select: none;
+    background-color: #dee2e6;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+.addnode .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-5 -5 10 10\'%3E%3Ccircle r=\'4\' fill=\'%23fff\'/%3E%3C/svg%3E");
+}
+.addnode .custom-control-label::after {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+
+.addnode .custom-select{
+    padding: 5px;
+    height: 35px;
+}
+
+
+
+.success_addnodes{
+    margin: 0 auto;
+    max-width: 925px;
+    padding: 50px 20px;
+    width: 100%;
+}
+.success_addnodes .imgdiv{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.success_addnodes .imgdiv img{
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.generate_app{
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 50px 20px;
+    width: 100%;
+}
+.generate_app .imgdiv{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.generate_app .imgdiv img{
+    width: 100%;
+    max-width: 300px;
+}
+.generate_app .custom-control {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 3px;
+}
+.generate_app .custom-control-label::before {
+    -moz-user-select: none;
+    background-color: #dee2e6;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+.generate_app .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-5 -5 10 10\'%3E%3Ccircle r=\'4\' fill=\'%23fff\'/%3E%3C/svg%3E");
+}
+.generate_app .custom-control-label::after {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+
+.generate_app .custom-select{
+    padding: 5px;
+    height: 35px;
 }
