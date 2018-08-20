@@ -22,39 +22,54 @@
     </header>
     <nav class="navbar pagenav">
         <div class="container">
-            Add a Node
+            Fund Account
         </div>
     </nav>
     <section class="contentpart">
         <div class="container">
             <div class="creat-environment">
-                <div class="addnode">
+                <div class="fund_account">
                     <div class="row">
                         <div class="col-6 imgdiv">
                             <img src="images/env.png" />
                         </div>
                         <div class="col-6">
                             <div class="pg-heading">
-                                <p>Prevision a node to take part in this environment</p>
+                                <p>Send specified funds to provided account address.</br>
+                                All environments begin with an ether pool of 1 billion ether</br>
+                            Any member can transfer funds to any account address.</p>
                             </div>
                             <div class="form-wrap">
                                 <form>
                                     <div class="form-group">
-                                        <label>Owning Member</label>
-                                        <select class="custom-select">
-                                            <option selected>Select Member</option>
-                                            <option value="1">ABC</option>
-                                            <option value="2">ABC EUROPE</option>
-                                        </select>
+                                        <label>Account Address</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
                                     </div>
                                     <div class="form-group">
-                                        <label>Node Name</label>
+                                        <label>Amount</label>
                                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Unit</label>
+                                        <div class="row">
+                                        <div class="col-6">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline1">Geth</label>
+                                            </div>                                           
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="customRadioInline3" name="customRadioInline2" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline3">IBFT</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12">
-                                                <a href="succesfully-node.html" class="btn btn-primary float-right">Add</a>
+                                                <a href="succesfully-node.html" class="btn btn-primary float-right">Fund</a>
                                                 <a href="javascript:void(0)" class="btn btn-secondary disabled float-right" style="margin-right: 5px;">Cancel</a>
                                             </div>
                                         </div>

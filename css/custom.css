@@ -640,3 +640,224 @@ margin-bottom: 10px;
     padding: 5px;
     height: 35px;
 }
+
+
+.fund_account{
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 50px 20px;
+    width: 100%;
+}
+.fund_account .imgdiv{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.fund_account .imgdiv img{
+    width: 100%;
+    max-width: 300px;
+}
+.fund_account .custom-control {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 3px;
+}
+.fund_account .custom-control-label::before {
+    -moz-user-select: none;
+    background-color: #dee2e6;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+.fund_account .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-5 -5 10 10\'%3E%3Ccircle r=\'4\' fill=\'%23fff\'/%3E%3C/svg%3E");
+}
+.fund_account .custom-control-label::after {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}
+
+.fund_account .custom-select{
+    padding: 5px;
+    height: 35px;
+}
+
+.navbar .input-group{
+    float: right;
+    max-width: 300px;
+}
+
+.explore_tab{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    
+}
+.explore_tab .table  td{
+    text-align: left;
+    line-height: 20px;
+}
+.explore_tab .table .thead-dark th {
+    background-color: #d2d2d2;
+    border-color: #d2d2d2;
+    color: #fff;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.explore_tab .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color:#fff;
+}
+.refresh{
+    color: #222;
+  
+    float: right;
+}
+.explore_tab .table .thead-dark th i{
+    margin-right: 5px;
+}
+.explore_tab .lcol span{
+    display: block;
+    color: #5c5c5c;
+}
+.explore_tab .lcol i{
+    margin-right: 5px;
+}
+.explore_tab .rcol{
+    text-align: right;
+}
+.explore_tab .rcol span{
+    color: #5c5c5c;
+    display: block;
+}
+.explore_tab td .row {
+    margin: 0 -5px;
+}
+.explore_tab a{
+    color: #000;
+}
+
+.unverified{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding:20px;
+    width: 100%;
+    overflow: hidden;
+}
+.unverified .head_title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.unverified .head_title span{
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+.unverified .linklist{
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+}
+.unverified .linklist li{
+    display: inline-block;
+    
+}
+.unverified .linklist li a{
+    background: #d2d2d2;
+    padding: 5px 10px;
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+}
+.unverified .linklist li a.active{
+    background: #222;
+    color: #fff;
+}
+.unverified .sourcecode{
+    background: #f1f1f1;
+    border:1px solid #e5e5e5;
+    padding: 15px;
+    line-height: 20px;
+}
+
+.verified{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding:20px;
+    width: 100%;
+    overflow: hidden;
+}
+.verified .head_title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.verified .head_title span{
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+.verified .linklist{
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+}
+.verified .linklist li{
+    display: inline-block;
+    
+}
+.verified .linklist li a{
+    background: #d2d2d2;
+    padding: 5px 10px;
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+}
+.verified .linklist li a.active{
+    background: #222;
+    color: #fff;
+}
+.verified .sourcecode{
+    background: #f1f1f1;
+    border:1px solid #e5e5e5;
+    padding: 15px;
+    line-height: 20px;
+}
+.verified .notetxt{
+    border: 0;
+background: #f1f1f1;
+border-left:5px solid #ccc;
+padding: 20px;
+line-height: 22px;
+margin-bottom: 20px;
+}
+.verified .row{
+    margin-bottom: 15px;
+}
+.verified .inp{
+    height: 35px;
+    line-height: 18px;
+}

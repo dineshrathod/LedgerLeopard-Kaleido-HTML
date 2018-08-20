@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>ledgerleopard</title>
+    <link href="css/bootstrap4.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif; -->
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="javascript:void(0)" class="logo">
+                <img src="images/ledgerleopard-logo.png" alt=""> </a>
+        </div>
+    </header>
+    <nav class="navbar pagenav">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">Kaleido Block Explorer</div>
+                <div class="col-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Go to address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="contentpart">
+        <div class="container">
+                <div class="enviroment-box">
+                        <div class="row">
+                            <div class="col-12 envir-data">
+                                <ul>
+                                    <li>
+                                        <div class="envir-count">
+                                            <h5>Consensus</h5>
+                                            raft
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="envir-count">
+                                            <h5>Block Height</h5>
+                                            2
+                                        </div>
+                                    </li>
+        
+                                </ul>
+                            </div>
+        
+                        </div>
+                    </div>
+            <div class="verified">
+                <div class="head_title">
+                    verified Contract 
+                    <span>dfdsfkjkjskfdiwi77897789hjkhjdndfkff4</span>
+                </div>
+                <ul class="linklist">
+                    <li><a href="#" class="active">Source code</a></li>
+                </ul>
+                <h4>Verify and Publish Contract Source Code</h4>
+                <div class="notetxt">
+                    Enter Contract Source Code below.</br>
+                    if the compiled bytcode matches the <strong>Creation Address</strong> bytcode, the  contract is then <strong>Verified</strong> and will be published online.
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <label>Contract Address</label>
+                        <div class="input-group">
+                                <input type="text" class="form-control inp" placeholder="Go to address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary inp" type="button">
+                                            <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-3">
+                            <label>Contract Name</label>
+                            <div class="input-group">
+                                    <input type="text" class="form-control inp" placeholder="Go to address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary inp" type="button">
+                                                <i class="fa fa-id-badge" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3">
+                                <label>Compiler</label>
+                                <div class="input-group">
+                                        <select class="custom-select">
+                                                <option selected>Select Member</option>
+                                                <option value="1">ABC</option>
+                                                <option value="2">ABC EUROPE</option>
+                                            </select>
+                                    </div>
+                            </div>
+                            <div class="col-3">
+                                    <label>Optimization Enabled</label>
+                                    <div class="input-group">
+                                            <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" id="customCheck1" type="checkbox">
+                                                    <label class="custom-control-label" for="customCheck1">Relay snapshot of block has to mainnet</label>
+                                                </div>
+                                        </div>
+                                </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                            <label>Contract Code</label>
+                            <div class="input-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-12">
+                                <label>Constructor Argument ABI-encoded (OPTIONAL - Required for certain contracts only)</label>
+                                <div class="input-group">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-12">
+                                <a href="succesfully-node.html" class="btn btn-primary float-right">Validate Code</a>
+                                <a href="javascript:void(0)" class="btn btn-secondary disabled float-right" style="margin-right: 5px;">Reset</a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+
+</html>
